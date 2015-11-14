@@ -22,7 +22,7 @@
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{URL::asset('')}}/js/1.11.3/jquery.min.js"></script>
+    <script src="{{URL::asset('')}}/js/jquery-1.11.3.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{URL::asset('')}}/js/bootstrap.min.js"></script>
   </body>
