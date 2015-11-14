@@ -9,7 +9,9 @@
 
     <!-- Bootstrap -->
     <link href="{{URL::asset('')}}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{URL::asset('')}}css/font-awesome.min.css" rel="stylesheet">
     <link href="{{URL::asset('')}}css/normalize.css" rel="stylesheet">
+    <link href="{{URL::asset('')}}css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,11 +21,25 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-hidden col-sm-2 col-md-2 col-lg-2 text-center" style="padding:0px;">
+            @include('merchant.left-sidebar')
+        </div>
+
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            @yield('content')
+        </div>
+      </div>
+        
+        
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{URL::asset('')}}js/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{URL::asset('')}}js/bootstrap.min.js"></script>
+    <script src="{{URL::asset('')}}js/custome.js"></script>
   </body>
 </html>
