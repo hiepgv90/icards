@@ -8,8 +8,8 @@
     <title>iCard</title>
 
     <!-- Bootstrap -->
-    <link href="{{URL::asset('')}}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{URL::asset('')}}/css/normalize.css" rel="stylesheet">
+    <link href="{{URL::asset('')}}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{URL::asset('')}}css/normalize.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,8 +22,8 @@
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{URL::asset('')}}/js/jquery-1.11.3.js"></script>
+    <script src="{{URL::asset('')}}js/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{URL::asset('')}}/js/bootstrap.min.js"></script>
+    <script src="{{URL::asset('')}}js/bootstrap.min.js"></script>
   </body>
 </html>
