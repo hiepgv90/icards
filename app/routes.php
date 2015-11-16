@@ -13,5 +13,33 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('merchant.index');
+});
+Route::get('khoi-tao-the', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('gui-tin-nhan', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('/', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('/', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('/', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('/', function()
+{
+	return View::make('merchant.index');
+});
+Route::get('/', function()
+{
+	return View::make('merchant.index');
 });
