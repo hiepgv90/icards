@@ -29,7 +29,8 @@
 		</ul>
 	</div>
 
-	<div class="row text-left" style="padding:15px 0px 30px 0px;margin:0px;">
-		
+	<div class="row text-left" style="margin:0px;padding-left:15px;position: initial;bottom: 0;">
+		<image src = "{{URL::asset('')}}images/logo-default.png" title="Logo" width="25%;"> 
+		<p style="color:#fff;">Copyright 2015 iCards. All right reserved!</p>
 	</div>
 </div>

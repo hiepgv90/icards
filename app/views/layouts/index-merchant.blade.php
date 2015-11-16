@@ -22,16 +22,10 @@
   </head>
   <body>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-hidden col-sm-2 col-md-2 col-lg-2 text-center" style="padding:0px;">
+    
             @include('merchant.left-sidebar')
-        </div>
-
-        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+        
             @yield('content')
-        </div>
-      </div>
         
         
     </div>
